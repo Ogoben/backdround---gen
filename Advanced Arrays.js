@@ -57,3 +57,9 @@ const answer = array.map((user) => {
   return user;
 });
 console.log(answer);
+
+import { without } from "lodash";
+
+let testarray = without([2, 1, 2, 3], 1, 2);
+
+testarray;
